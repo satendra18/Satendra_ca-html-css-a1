@@ -1,0 +1,283 @@
+.header{
+    background-color: #fbdc00;    
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: .5em;
+}
+:root {
+    --color-primary: #ee3425;
+    --color-primary-1: #ee3425;
+    --color-primary-2: #ee3425;
+    --color-secondary: #fbdc00;
+    --color-secondary-1: #ebbe00;
+    --font-color: #434343;
+    --font-color-heading: #000;
+    --font-color-link: var(--color-primary);
+    --font-family: "PT Sans",sans-serif;
+    --font-family-heading: "Ubuntu",sans-serif;
+    --font-size-xl: 18px;
+    --font-size-lg: 16px;
+    --font-size-md: 14px;
+    --font-size-sm: 12px;
+    --font-size-xs: 10px;
+    --line-height: 1.5;
+}
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height);
+    color: var(--font-color);
+    -webkit-font-smoothing: antialiased;
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font: fo;
+}
+.container{
+    --layout-topbar: 56px;
+    --layout-startbar: 200px;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    min-height: 100vh;
+    padding-top: var(--layout-topbar);
+}
+.banner, .navbar, .stats, .process, .product_row, 
+.trustees_icon, .start_container, .indus_logo_row, 
+.start2_container, .video_text,.blog_read_container, .container_last, .email_input_container{
+    display: inline-flex;
+}
+
+.banner{    
+    justify-content: space-between;  
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1%; 
+    padding-left: 5%;   
+    font-family: var(--font-family-heading);
+    font-weight: 500;
+    color: var(--font-color-heading);
+    margin: -1%;
+    
+    position: relative;
+}
+.banner h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.banner_text {
+    margin-left: 7%;
+}
+.styles_img_container {
+    margin-bottom: -4%;
+    margin-right: 10%;
+}
+.register li {
+    display: inline;
+}
+.topbar_fixed{    
+    display:inline-flex;
+    background: #fff;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+}
+.style_contain_topbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: var(--layout-topbar);
+    padding: 8px 16px;    
+    font-weight: 500;
+    color: var(--font-color-heading);
+    background-color: #fbdc00;   
+}
+.header_options{
+    margin: 10%;
+}
+.header_options span{    
+    font-weight: 550;
+}
+.cogologo{
+    margin-left: 10%;
+}
+.banner, .start, .last_inner_container, .container_last{
+    background-color: #fbdc00;
+}
+
+#ebbe0
+.banner{   
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    width: 960px;
+}
+.stats{      
+    margin-left: 6%;
+    margin: -7%;
+}
+.stats h2{
+    margin-bottom:-20% ;
+}
+.stats h2{
+    font-size: 40px;
+    line-height: 1.2;
+    color: #ee3425;
+}
+.stats h4{
+    font-size: large;
+    color: #000;
+    display: block;
+    
+    font-weight: bold;
+}
+.styles_red{
+    padding:20%;
+}
+.curve_out{
+    display: block;
+    background: #fffef2;
+}
+.style_curve{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 18px;
+    border-bottom-right-radius: 100% 150%;
+    border-bottom-left-radius: 100% 150%;
+}
+.process{
+    margin-left: 0%;
+    padding-top: 4%;
+}
+.products{
+    background-color: #fffef2;   
+    margin-bottom: -6%;
+}
+.product_row{
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+.find{
+    color: #ee3425;
+}
+.trustess_icon_element{
+    margin: 9%;
+}
+.start_container{
+    padding: 1%;
+    padding-left: 15%;
+}
+.industries{
+    background-color: #fffef2;
+    margin-bottom: 10%;
+}
+.indus_logo_element{
+    margin-left: 15%;
+}
+.start2{
+    padding-left: 15%;
+}
+.start2 button{
+    padding: 1.5%;
+    padding-inline:7% ;
+}
+.blogs_element{    
+    padding: .5%;
+}
+.style_view_button{
+    align-items: center;
+    padding: 0%;
+    padding-inline: 2%;
+    margin-left: 70%;
+}
+.xcurve_out{
+    display: block;
+    background: #fbdc00;
+}
+.xstyle_curve{
+    width: 100%;
+    height: 100px;
+    background-color: #fbdc00;
+    border-radius: 18px;
+    border-bottom-right-radius: 100% 150%;
+    border-bottom-left-radius: 100% 150%;
+}
+.column_head{
+    font-size: 20px; 
+}
+.red{
+    color: #ee3425;
+}
+.process{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 10%;
+    font-family: var(--font-family-heading);
+    font-weight: 500;
+    color: var(--font-color-heading);
+    background-color:#fffef2 ;
+}
+.process h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+.process p{
+    color: #434343;    
+}
+.products{
+    align-items: center;
+    padding: 2%;
+}
+.styles_find__zT3eIfind{
+    color: #ee3425;
+}
+.trustess_icon_element{
+    align-items: center;
+    padding-left: 15%;
+}
+.style_blog_img{
+    height: 100px; width: 400px;
+}
+
+.button{
+    border-radius: .5em;
+    border-color:#ee3425;
+    background-color:#ee3425;
+}
+.products button{
+    border-radius: .5em;
+    border-color:white;
+    background-color:white;
+}
+.cogologo{
+    align-items: left;
+}
+.header_options{
+    align-items: center;
+}
+.header_options li{
+    display: inline-flex;
+}
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    font-family: var(--font-family-heading);
+    list-style-type: none;
+}
+
+.style_img{
+    display: block;
+    width: 500px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: 100%;
+}
+
